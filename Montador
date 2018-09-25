@@ -13,3 +13,5 @@ current_state = ['0' for i in range(24*n_leds)] # All off
 bit_0_pulse = [(pigpio.pulse(1<<PIN, 0, 0.1)), (pigpio.pulse(0, 1<<PIN, 1))] # 0.1 us HIGH, 1 us LOW
 bit_1_pulse = [(pigpio.pulse(1<<PIN, 0, 1)), (pigpio.pulse(0, 1<<PIN, 0.1))] # 1 us HIGH, 0.1 us LOW
 reset_pulse = [pigpio.pulse(0, 1<<PIN, 100)]                                 # 100 us LOW
+
+for(i=0;i<j;i++){}
